@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""lockboxes task"""
+
 
 def canUnlockAll(boxes):
     """mindbending game of lockboxes"""
