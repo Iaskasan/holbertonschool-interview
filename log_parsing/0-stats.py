@@ -55,6 +55,9 @@ def main():
         print_stats(total_size, counts)
         return
 
+    if line_count % 10 != 0:
+        print_stats(total_size, counts)
+
 
 if __name__ == "__main__":
     main()
